@@ -38,13 +38,10 @@ export function FooterSection() {
               alt="Dreamr"
               className={`w-auto transition-all duration-500 ${isScrolled ? "h-7" : "h-9"}`}
                </a>
-          
-
               <p className="text-muted-foreground leading-relaxed mb-6 max-w-xs text-sm">
                 Conversion-first websites for HVAC and plumbing contractors. 
                 $0 upfront. $249/month. Cancel anytime.
               </p>
-
             </div>
 
             {/* Link Columns */}
