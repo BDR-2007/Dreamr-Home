@@ -46,7 +46,7 @@ export function Navigation() {
           {/* Logo */}
           <a href="/" className="flex items-center group" aria-label="Dreamr home">
             <img
-              src="https://i.postimg.cc/bNBBCSYL/Group-136.png"
+              src="/dreamr-logo.png"
               alt="Dreamr"
               className={`w-auto transition-all duration-500 ${isScrolled ? "h-7" : "h-9"}`}
             />
