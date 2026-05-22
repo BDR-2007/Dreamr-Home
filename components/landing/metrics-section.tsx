@@ -145,13 +145,16 @@ export function MetricsSection() {
             The average emergency HVAC or plumbing call is worth <span className="font-display">$800–$2,400</span>. 
             One additional call per month pays your retainer <span className="font-display">3× over</span>.
           </p>
-                    <div className="flex items-center gap-4 text-sm text-muted-foreground">
+          
+          <div className="flex items-center gap-4 text-sm text-muted-foreground mt-6">
             <span className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-green-500" />
               We only take on 120 business owners at a time!
             </span>
+          </div>
         </div>
       </div>
     </section>
   );
+}
 }
