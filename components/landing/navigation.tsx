@@ -75,11 +75,12 @@ export function Navigation() {
               contact@dreamr.store
             </a>
             <Button
+              asChild
               size="sm"
               className={`rounded-full transition-all duration-500 text-white ${isScrolled ? "px-4 h-8 text-xs" : "px-6"}`}
               style={{ backgroundColor: '000000' }}
             >
-              See Your New Site Free
+              <a href="#cta">See Your New Site Free</a>
             </Button>
           </div>
 
@@ -136,19 +137,23 @@ export function Navigation() {
           }`}
           style={{ transitionDelay: isMobileMenuOpen ? "300ms" : "0ms" }}
           >
-            <Button 
+            <Button
+              asChild
               variant="outline" 
               className="flex-1 rounded-full h-14 text-base"
-              onClick={() => setIsMobileMenuOpen(false)}
             >
-              Call Us
+              <a href="#cta" onClick={() => setIsMobileMenuOpen(false)}>
+                Call Us
+              </a>
             </Button>
-            <Button 
+            <Button
+              asChild
               className="flex-1 rounded-full h-14 text-base text-white"
               style={{ backgroundColor: '000000' }}
-              onClick={() => setIsMobileMenuOpen(false)}
             >
-              See Your New Site Free
+              <a href="#cta" onClick={() => setIsMobileMenuOpen(false)}>
+                See Your New Site Free
+              </a>
             </Button>
           </div>
         </div>
