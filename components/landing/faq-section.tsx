@@ -52,7 +52,10 @@ const faqs = [
 
 export function FaqSection() {
   return (
-    <section id="faq" className="relative py-20 lg:py-28 border-t border-foreground/10">
+    <section id="faq" className="relative py-20 lg:py-28 border-t border-foreground/10"
+      style={{ backgroundColor: '#DB8B4B' }}
+      >
+      
       <div className="max-w-4xl mx-auto px-6 lg:px-12">
         <div className="mb-10">
           <span className="font-mono text-xs tracking-widest text-muted-foreground uppercase block mb-4">
