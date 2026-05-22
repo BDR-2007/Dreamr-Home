@@ -148,8 +148,8 @@ export function MetricsSection() {
           
           <div className="flex items-center gap-4 text-sm text-muted-foreground mt-6">
             <span className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-green-500" />
-              We only take on 120 business owners at a time!
+              <span className="w-2 h-2 rounded-full bg-orange-500" />
+              We only serve 120 businesses at a time! Once capacity is reached, join the waiting list to ensure you can enter if a spot opens.
             </span>
           </div>
         </div>
