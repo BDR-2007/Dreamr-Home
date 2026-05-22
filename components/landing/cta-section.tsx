@@ -62,11 +62,26 @@ export function CtaSection() {
                   <span className="text-muted-foreground">Then decide.</span>
                 </h2>
 
-                <p className="text-lg text-muted-foreground mb-8 leading-relaxed max-w-xl">
+                <p className="text-lg text-muted-foreground mb-6 leading-relaxed max-w-xl">
                   Drop your details below. We&apos;ll send you a complete preview of your Dreamr site — 
                   built with your branding, your layout choice, ready to go live. No credit card. 
                   No commitment. No sales call.
                 </p>
+
+                <div className="mb-8 w-full max-w-[640px] overflow-hidden border border-foreground/10 bg-background shadow-sm">
+                  <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSeMxe0uN_Gy68X9KkIwam0mgWgZtKeEsbOMRjLdtYZp03IZsw/viewform?embedded=true"
+                    title="Dreamr free mockup request form"
+                    width="640"
+                    height="500"
+                    frameBorder="0"
+                    marginHeight={0}
+                    marginWidth={0}
+                    className="block h-[500px] w-full"
+                  >
+                    Loading...
+                  </iframe>
+                </div>
 
                 <div className="flex flex-col sm:flex-row items-start gap-4">
                   <Button

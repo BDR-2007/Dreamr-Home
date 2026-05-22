@@ -43,18 +43,14 @@ export function Navigation() {
             isScrolled ? "h-14" : "h-20"
           }`}
         >
-{/* Logo */}
-<a href="#" className="flex items-center group">
-  <span className={`font-display font-extralight tracking-[-0.02em] transition-all duration-500 ${isScrolled ? "text-xl" : "text-2xl"}`}>
-    Dream
-  </span>
-  <span 
-    className={`font-display font-black tracking-tight transition-all duration-500 -ml-[7x] ${isScrolled ? "text-xl" : "text-2xl"}`}
-    style={{ color: '#BA6900' }}
-  >
-    r
-  </span>
-</a>
+          {/* Logo */}
+          <a href="#" className="flex items-center group" aria-label="Dreamr home">
+            <img
+              src="https://i.postimg.cc/bNBBCSYL/Group-136.png"
+              alt="Dreamr"
+              className={`w-auto transition-all duration-500 ${isScrolled ? "h-7" : "h-9"}`}
+            />
+          </a>
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-12">
             {navLinks.map((link) => (
