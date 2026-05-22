@@ -50,35 +50,7 @@ export default function ContactPage() {
               <li>HVAC, plumbing, or both</li>
             </ul>
           </div>
-          "use client";
 
-import { useEffect, useRef, useState } from "react";
-import { AnimatedTetrahedron } from "./animated-tetrahedron";
-
-export function CtaSection() {
-  const [isVisible, setIsVisible] = useState(false);
-  const sectionRef = useRef<HTMLDivElement>(null);
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) setIsVisible(true);
-      },
-      { threshold: 0.2 }
-    );
-
-    if (sectionRef.current) observer.observe(sectionRef.current);
-    return () => observer.disconnect();
-  }, []);
-
-  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-    const rect = e.currentTarget.getBoundingClientRect();
-    setMousePosition({
-      x: ((e.clientX - rect.left) / rect.width) * 100,
-      y: ((e.clientY - rect.top) / rect.height) * 100,
-    });
-  };
 
   return (
     <section id="cta" ref={sectionRef} className="relative py-20 lg:py-28 overflow-hidden">
