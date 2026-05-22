@@ -6,7 +6,7 @@ const plans = [
   {
     name: "Standard",
     subtitle: "Dreamr 'Local Authority' Package",
-    price: 249,
+    price: 199,
     priceLabel: "/month",
     setup: "$0 setup · Cancel anytime",
     features: [
@@ -25,7 +25,7 @@ const plans = [
   {
     name: "One-Time",
     subtitle: "Dreamr 'Turnkey' Buildout",
-    price: 6500,
+    price: 4800,
     priceLabel: "/one-time",
     setup: "$0 retainer · one-time purchase",
     features: [
