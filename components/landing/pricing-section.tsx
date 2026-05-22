@@ -25,7 +25,7 @@ const plans = [
   {
     name: "One-Time",
     subtitle: "Dreamr 'Turnkey' Buildout",
-    price: 6499,
+    price: 6500,
     priceLabel: "/one-time",
     setup: "$0 retainer · one-time purchase",
     features: [
