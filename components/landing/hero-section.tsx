@@ -64,7 +64,7 @@ export function HeroSection() {
 
           <h1
   
-            className={`text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-display leading-[0.95] tracking-[-0.02em] transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+            className={`text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-display leading-[0.95] tracking-[-0.06em] transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
                                                                                                                                                              }`}
             >
             <span className="block">Capture every dollar</span>
