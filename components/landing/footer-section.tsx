@@ -4,14 +4,14 @@ import { AnimatedWave } from "./animated-wave";
 
 const footerLinks = {
   Process: [
-    { name: "How It Works", href: "#how-it-works" },
-    { name: "Pricing", href: "#pricing" },
-    { name: "Results", href: "#metrics" },
+    { name: "How It Works", href: "/#how-it-works" },
+    { name: "Pricing", href: "/#pricing" },
+    { name: "Results", href: "/#metrics" },
   ],
   Company: [
-    { name: "About Dreamr", href: "#" },
-    { name: "Contact", href: "#" },
-    { name: "FAQ", href: "#" },
+    { name: "About Dreamr", href: "/" },
+    { name: "Contact", href: "/contact" },
+    { name: "FAQ", href: "#faq" },
   ],
   Legal: [
     { name: "Privacy Policy", href: "/privacy-policy" },
@@ -33,7 +33,7 @@ export function FooterSection() {
           <div className="grid grid-cols-2 md:grid-cols-6 gap-10 lg:gap-8">
             {/* Brand Column */}
             <div className="col-span-2">
-              <a href="#" className="inline-flex items-center gap-2 mb-5">
+              <a href="/" className="inline-flex items-center gap-2 mb-5">
                 <span className="text-2xl font-display">Dreamr</span>
               </a>
 

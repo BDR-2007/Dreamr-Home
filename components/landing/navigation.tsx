@@ -5,10 +5,10 @@ import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { name: "Layouts", href: "#features" },
-  { name: "How It Works", href: "#how-it-works" },
-  { name: "Results", href: "#metrics" },
-  { name: "Pricing", href: "#pricing" },
+  { name: "Layouts", href: "/#features" },
+  { name: "How It Works", href: "/#how-it-works" },
+  { name: "Results", href: "/#metrics" },
+  { name: "Pricing", href: "/#pricing" },
 ];
 
 export function Navigation() {
@@ -44,7 +44,7 @@ export function Navigation() {
           }`}
         >
           {/* Logo */}
-          <a href="#" className="flex items-center group" aria-label="Dreamr home">
+          <a href="/" className="flex items-center group" aria-label="Dreamr home">
             <img
               src="https://i.postimg.cc/bNBBCSYL/Group-136.png"
               alt="Dreamr"
@@ -67,7 +67,7 @@ export function Navigation() {
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center gap-4">
-            <a href="#" className={`text-foreground/70 hover:text-foreground transition-all duration-500 ${isScrolled ? "text-xs" : "text-sm"}`}>
+            <a href="mailto:contact@dreamr.store" className={`text-foreground/70 hover:text-foreground transition-all duration-500 ${isScrolled ? "text-xs" : "text-sm"}`}>
               contact@dreamr.store
             </a>
             <Button
@@ -76,7 +76,7 @@ export function Navigation() {
               className={`rounded-full transition-all duration-500 text-white ${isScrolled ? "px-4 h-8 text-xs" : "px-6"}`}
               style={{ backgroundColor: '000000' }}
             >
-              <a href="#cta">See Your New Site Free</a>
+              <a href="/#cta">See Your New Site Free</a>
             </Button>
           </div>
 
@@ -138,7 +138,7 @@ export function Navigation() {
               variant="outline" 
               className="flex-1 rounded-full h-14 text-base"
             >
-              <a href="#cta" onClick={() => setIsMobileMenuOpen(false)}>
+              <a href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
                 Call Us
               </a>
             </Button>
@@ -147,7 +147,7 @@ export function Navigation() {
               className="flex-1 rounded-full h-14 text-base text-white"
               style={{ backgroundColor: '000000' }}
             >
-              <a href="#cta" onClick={() => setIsMobileMenuOpen(false)}>
+              <a href="/#cta" onClick={() => setIsMobileMenuOpen(false)}>
                 See Your New Site Free
               </a>
             </Button>

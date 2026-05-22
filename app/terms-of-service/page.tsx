@@ -1,4 +1,7 @@
 import type { Metadata } from "next";
+import { FaqSection } from "@/components/landing/faq-section";
+import { FooterSection } from "@/components/landing/footer-section";
+import { Navigation } from "@/components/landing/navigation";
 
 export const metadata: Metadata = {
   title: "Terms of Service | Dreamr",
@@ -8,11 +11,8 @@ export const metadata: Metadata = {
 export default function TermsOfServicePage() {
   return (
     <main className="min-h-screen bg-background text-foreground noise-overlay">
-      <section className="mx-auto max-w-3xl px-6 py-16 lg:py-24">
-        <a href="/" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
-          Dreamr
-        </a>
-
+      <Navigation />
+      <section className="mx-auto max-w-3xl px-6 pt-32 pb-16 lg:pt-40 lg:pb-24">
         <div className="mt-12">
           <p className="font-mono text-xs uppercase tracking-widest text-muted-foreground mb-4">
             Legal
@@ -66,6 +66,8 @@ export default function TermsOfServicePage() {
           </section>
         </div>
       </section>
+      <FaqSection />
+      <FooterSection />
     </main>
   );
 }

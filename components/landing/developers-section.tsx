@@ -227,11 +227,11 @@ export function DevelopersSection() {
             
             {/* Links */}
             <div className="mt-6 flex items-center gap-6 text-sm">
-              <a href="#" className="text-foreground hover:underline underline-offset-4">
+              <a href="/#features" className="text-foreground hover:underline underline-offset-4">
                 See example sites
               </a>
               <span className="text-foreground/20">|</span>
-              <a href="#" className="text-muted-foreground hover:text-foreground">
+              <a href="#faq" className="text-muted-foreground hover:text-foreground">
                 FAQ
               </a>
             </div>
