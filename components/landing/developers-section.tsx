@@ -8,7 +8,7 @@ const codeExamples = [
     label: "Your Brand",
     code: `// We pull your existing branding
 const branding = {
-  logo: 'your-logo.png',
+  logo: 'https://i.postimg.cc/bNBBCSYL/Group-136.png',
   colors: {
     primary: '#1E40AF',
     accent: '#F59E0B'
