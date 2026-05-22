@@ -34,7 +34,7 @@ const layouts = [
   {
     number: "06",
     title: "No Shady Contracts",
-    description: "We know that you will love your site (and even more so the revenue we bring you) but if you don't, cancel anytime. No penalties. You can also purchase the site's source code permanently at any point if you don't need recurring updates and any recurring fees you have paid will be rolled into the site up to $4500.",
+    description: "We know that you will love your site (and even more so the revenue we bring you) but if you don't, cancel anytime. No penalties. You can also purchase the site's source code permanently at any point if you don't need recurring updates and any recurring fees you have paid will be rolled into the site up to $3500.",
     link: "Included every month",
   },
 ];
