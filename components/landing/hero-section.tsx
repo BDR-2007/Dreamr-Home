@@ -59,19 +59,19 @@ export function HeroSection() {
         </div>
         
 
-{/* Main headline */}
-<div className="mb-6">   {/* Reduced from mb-8 */}
-  <h1
-    className={`text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-display 
-                leading-[0.95] tracking-[-0.02em] transition-all duration-1000 ${
-      isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
-    }`}
-  >
-    <span className="block">Capture every dollar</span>
-    <span className="block">your current website</span>
-    <span className="block text-muted-foreground">is losing you.</span>
-  </h1>
-</div>
+        {/* Main headline */}
+        <div className="mb-6">   {/* Reduced from mb-8 */}
+
+          <h1
+  
+            className={`text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-display leading-[0.95] tracking-[-0.02em] transition-all duration-1000 ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
+                                                                                                                                                             }`}
+            >
+            <span className="block">Capture every dollar</span>
+            <span className="block">your current website</span>
+            <span className="block text-muted-foreground">is losing you.</span>
+          </h1>
+        </div>
         
         {/* Description */}
         <div className="grid lg:grid-cols-2 gap-8 lg:gap-16 items-end">
