@@ -16,8 +16,8 @@ const layouts = [
   },
   {
     number: "03",
-    title: "Simple requests and revisions, anytime",
-    description: "Running a seasonal promo? Adding a new service? Need to swap a photo before the weekend? Send us a message and it gets handled for you. Typically within 48hrs. Every retainer includes two hours of monthly updates so you're never filing a ticket or waiting on an invoice to change something on your own website. Your business moves fast. Your site should keep up without you having to think about it.",
+    title: "Done-For-You Maintenance",
+    description: "Running a seasonal promo? Adding a new service? Need to swap a photo before the weekend? Send us a message and it gets handled for you. Typically within 48hrs. Every retainer includes two hours of monthly updates so you're never filing a ticket or waiting on an invoice to change something on your own website. Enabling quick updates without you having to do anything technical.",
   },
 ];
 
@@ -36,8 +36,8 @@ const additionalFeatures = [
   },
   {
     number: "06",
-    title: "Done-For-You Maintenance",
-    description: "Need to update your summer promo? Add a new truck photo? Change your holiday hours? Contact us anytime. It's done. Two hours of monthly updates included — no ticket systems, no invoices.",
+    title: "No Shady Contracts",
+    description: "We know that you will love your site (and even more so the revenue we bring you) but if you don't, cancel anytime. No penalties. You can also purchase the site's source code permanently at any point if you don't need recurring updates and any recurring fees you have paid will be rolled into the site up to $4500.",
     link: "Included every month",
   },
 ];
