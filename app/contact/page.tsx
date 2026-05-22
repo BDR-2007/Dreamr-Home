@@ -45,6 +45,7 @@ export default function ContactPage() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>Business name and city</li>
               <li>Current website, if you have one</li>
+              <li>Fulll Name</li>
               <li>Primary service area</li>
               <li>HVAC, plumbing, or both</li>
             </ul>
