@@ -120,7 +120,7 @@ export function HeroSection() {
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-12">
             {[
-              { value: "$0", label: "To go live" },
+              { value: "$0", label: "Setup Fees" },
               { value: "$249", label: "/mo flat retainer" },
               { value: "1×", label: "Contractor per territory" },
               { value: "Cancel", label: "Any month. No fine print." },
