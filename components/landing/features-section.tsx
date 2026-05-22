@@ -180,13 +180,6 @@ export function FeaturesSection() {
             <LayoutCard key={layout.number} layout={layout} index={index} />
           ))}
         </div>
-        
-        {/* Additional Features */}
-        <div className="mt-16 lg:mt-24">
-          {additionalFeatures.map((feature, index) => (
-            <FeatureCard key={feature.number} feature={feature} index={index} />
-          ))}
-        </div>
       </div>
     </section>
   );
