@@ -31,13 +31,14 @@ export function FooterSection() {
         {/* Main Footer */}
         <div className="py-16 lg:py-20">
           <div className="grid grid-cols-2 md:grid-cols-6 gap-10 lg:gap-8">
+            
                       {/* Logo */}
           <a href="/" className="flex items-center group" aria-label="Dreamr home">
             <img
               src="/dreamr-logo.png"
               alt="Dreamr"
               className={`w-auto transition-all duration-500 ${isScrolled ? "h-7" : "h-9"}`}
-
+          </a>
               <p className="text-muted-foreground leading-relaxed mb-6 max-w-xs text-sm">
                 Conversion-first websites for HVAC and plumbing contractors. 
                 $0 upfront. $249/month. Cancel anytime.
