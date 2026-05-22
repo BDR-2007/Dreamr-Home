@@ -16,7 +16,7 @@ const faqs = [
   {
     question: "Is there an upfront setup fee?",
     answer:
-      "The monthly plan is built around $0 upfront. You pay the first monthly retainer when you decide to go live.",
+      "No. The monthly plan is built around $0 upfront. The monthly retainer starts on the day everythgin is setup and we go live.",
   },
   {
     question: "What kinds of contractors do you work with?",
