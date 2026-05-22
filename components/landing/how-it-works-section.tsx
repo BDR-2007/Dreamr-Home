@@ -80,7 +80,7 @@ export function HowItWorksSection() {
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
             }`}
           >
-            From cold email to
+            From application to
             <br />
             live site in days —
             <br />
