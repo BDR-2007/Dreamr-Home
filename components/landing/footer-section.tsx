@@ -1,14 +1,8 @@
 "use client";
 
-import { ArrowUpRight } from "lucide-react";
 import { AnimatedWave } from "./animated-wave";
 
 const footerLinks = {
-  Layouts: [
-    { name: "The 24/7 Dispatcher", href: "#features" },
-    { name: "The Local Authority", href: "#features" },
-    { name: "The Flat-Rate Closer", href: "#features" },
-  ],
   Process: [
     { name: "How It Works", href: "#how-it-works" },
     { name: "Pricing", href: "#pricing" },
@@ -20,16 +14,10 @@ const footerLinks = {
     { name: "FAQ", href: "#" },
   ],
   Legal: [
-    { name: "Privacy Policy", href: "#" },
-    { name: "Terms of Service", href: "#" },
+    { name: "Privacy Policy", href: "/privacy-policy" },
+    { name: "Terms of Service", href: "/terms-of-service" },
   ],
 };
-
-const socialLinks = [
-  { name: "Facebook", href: "#" },
-  { name: "Instagram", href: "#" },
-  { name: "LinkedIn", href: "#" },
-];
 
 export function FooterSection() {
   return (
@@ -54,19 +42,6 @@ export function FooterSection() {
                 $0 upfront. $249/month. Cancel anytime.
               </p>
 
-              {/* Social Links */}
-              <div className="flex gap-5">
-                {socialLinks.map((link) => (
-                  <a
-                    key={link.name}
-                    href={link.href}
-                    className="text-sm text-muted-foreground hover:text-foreground transition-colors flex items-center gap-1 group"
-                  >
-                    {link.name}
-                    <ArrowUpRight className="w-3 h-3 opacity-0 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all" />
-                  </a>
-                ))}
-              </div>
             </div>
 
             {/* Link Columns */}

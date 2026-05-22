@@ -1,8 +1,6 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
 import { AnimatedTetrahedron } from "./animated-tetrahedron";
 
 export function CtaSection() {
@@ -83,20 +81,7 @@ export function CtaSection() {
                   </iframe>
                 </div>
 
-                <div className="flex flex-col sm:flex-row items-start gap-4">
-                  <Button
-                    asChild
-                    size="lg"
-                    className="bg-foreground hover:bg-foreground/90 text-background px-8 h-14 text-base rounded-full group"
-                  >
-                    <a href="#cta">
-                      Send Me the Free Mockup
-                      <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover:translate-x-1" />
-                    </a>
-                  </Button>
-                </div>
-
-                <p className="text-sm text-muted-foreground mt-6 font-mono">
+                <p className="text-sm text-muted-foreground font-mono">
                   No credit card required. No contract. The preview costs you nothing.
                 </p>
                 <p className="text-sm text-muted-foreground mt-2">
