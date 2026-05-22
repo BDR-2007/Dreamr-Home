@@ -52,13 +52,16 @@ export function PricingSection() {
             Simple pricing
           </span>
           <h2 className="font-display text-3xl md:text-5xl lg:text-6xl tracking-tight text-foreground mb-4">
-            One price. No surprises.
+            We build first. You pay after.
             <br />
             <span className="text-muted-foreground">No long-term trap.</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-xl">
-            Traditional agencies charge $3,000–$5,000 before they&apos;ve built a single page. We build first. You pay after.
+            Traditional agencies charge $3,000–$5,000 before they&apos;ve built a single page. We show our work before receiving a dime. If you don't like your site; you walk away. No questions asked.
           </p>
+           <span className="font-mono text-xs tracking-widest text-muted-foreground uppercase block mb-4">
+            All Prices In USD
+          </span>
         </div>
 
         {/* Pricing Cards */}
