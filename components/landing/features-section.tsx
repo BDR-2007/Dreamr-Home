@@ -19,9 +19,6 @@ const layouts = [
     title: "Done-For-You Maintenance",
     description: "Running a seasonal promo? Adding a new service? Need to swap a photo before the weekend? Send us a message and it gets handled for you. Typically within 48hrs. Every retainer includes two hours of monthly updates so you're never filing a ticket or waiting on an invoice to change something on your own website. Enabling quick updates without you having to do anything technical.",
   },
-];
-
-const additionalFeatures = [
   {
     number: "04",
     title: "Mobile-First, Always",
