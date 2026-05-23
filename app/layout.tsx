@@ -24,6 +24,13 @@ export const metadata: Metadata = {
   title: 'Dreamr - Conversion-First Websites for HVAC & Plumbing Contractors',
   description: 'Capture every dollar your current website is losing you. $0 upfront, $249/month, cancel anytime. Your new site is already built before you spend a dime.',
   generator: 'v0.app',
+  icons: {
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+    ],
+    shortcut: '/favicon-32x32.png',
+  },
 }
 
 export default function RootLayout({
