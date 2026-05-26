@@ -57,7 +57,7 @@ const metrics = [
     suffix: "s", 
     prefix: "<",
     label: "Page load target",
-    description: "Every Dreamr site is built to hit this on mobile, every time",
+    description: "The probability of a user leaving the page increases by 32% as page load time goes from 1 second to 3 seconds If a page takes 5 seconds to load, the bounce rate skyrockets to 90%. We build your site to retain as many customers as possible.",
   },
   { 
     value: 70, 
