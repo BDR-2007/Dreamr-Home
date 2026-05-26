@@ -106,9 +106,9 @@ export function MetricsSection() {
                 isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
               }`}
             >
-              Results contractors
+              We deliver metrics
               <br />
-              <span className="text-muted-foreground">actually care about.</span>
+              <span className="text-muted-foreground"> you actually care about.</span>
             </h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-xl">
               Not bounce rates. Not impressions. Booked jobs, scheduled trucks, and cash flow.
