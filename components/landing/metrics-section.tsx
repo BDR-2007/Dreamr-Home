@@ -53,7 +53,7 @@ const metrics = [
     description: "How long a homeowner spends before she calls or bounces",
   },
   { 
-    value: 2, 
+    value: 3, 
     suffix: "s", 
     prefix: "<",
     label: "Page load target",
