@@ -15,7 +15,7 @@ export function HeroSection() {
   return (
     <section className="relative min-h-[100svh] lg:min-h-screen flex flex-col lg:justify-center overflow-hidden pt-28 pb-10 lg:pt-0 lg:pb-0">
       {/* Animated sphere background */}
-      <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[600px] h-[600px] lg:w-[800px] lg:h-[800px] opacity-40 pointer-events-none">
+      <div className="absolute -right-36 top-24 h-[360px] w-[360px] opacity-[0.12] pointer-events-none sm:-right-28 sm:h-[460px] sm:w-[460px] sm:opacity-20 lg:right-0 lg:top-1/2 lg:h-[800px] lg:w-[800px] lg:-translate-y-1/2 lg:opacity-40">
         <AnimatedSphere />
       </div>
       
