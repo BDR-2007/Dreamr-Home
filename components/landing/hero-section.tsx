@@ -13,7 +13,7 @@ export function HeroSection() {
   }, []);
 
   return (
-    <section className="relative min-h-screen flex flex-col justify-center overflow-hidden">
+    <section className="relative min-h-[100svh] lg:min-h-screen flex flex-col lg:justify-center overflow-hidden pt-28 pb-10 lg:pt-0 lg:pb-0">
       {/* Animated sphere background */}
       <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[600px] h-[600px] lg:w-[800px] lg:h-[800px] opacity-40 pointer-events-none">
         <AnimatedSphere />
@@ -45,7 +45,7 @@ export function HeroSection() {
         ))}
       </div>
       
-      <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-12 py-32 lg:py-40">
+      <div className="relative z-10 w-full max-w-[1400px] mx-auto px-6 lg:px-12 py-10 lg:py-40">
         {/* Eyebrow */}
         <div 
           className={`mb-6 transition-all duration-700 ${
@@ -86,14 +86,14 @@ export function HeroSection() {
           
           {/* CTAs */}
           <div 
-            className={`flex flex-col sm:flex-row items-start gap-4 transition-all duration-700 delay-300 ${
+            className={`flex flex-col sm:flex-row items-stretch sm:items-start gap-3 sm:gap-4 transition-all duration-700 delay-300 ${
               isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
             }`}
           >
             <Button
               asChild
               size="lg" 
-              className="bg-foreground hover:bg-foreground/90 text-background px-8 h-14 text-base rounded-full group"
+              className="w-full sm:w-auto bg-foreground hover:bg-foreground/90 text-background px-8 h-14 text-base rounded-full group"
             >
               <a href="#cta">
                 See Your New Site Free
@@ -104,7 +104,7 @@ export function HeroSection() {
               asChild
               size="lg" 
               variant="outline" 
-              className="h-14 px-8 text-base rounded-full border-foreground/20 hover:bg-foreground/5"
+              className="w-full sm:w-auto h-14 px-8 text-base rounded-full border-foreground/20 hover:bg-foreground/5"
             >
               <a href="#cta">How It Works</a>
             </Button>
@@ -115,12 +115,12 @@ export function HeroSection() {
       
       {/* Stats bar */}
       <div 
-        className={`absolute bottom-16 left-0 right-0 transition-all duration-700 delay-500 ${
+        className={`relative z-10 mt-2 pb-4 lg:absolute lg:bottom-16 lg:left-0 lg:right-0 lg:mt-0 lg:pb-0 transition-all duration-700 delay-500 ${
           isVisible ? "opacity-100" : "opacity-0"
         }`}
       >
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 lg:gap-12">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-5 lg:gap-12">
             {[
               { value: "$0", label: "Setup Fees" },
               { value: "$249", label: "/mo flat retainer" },
