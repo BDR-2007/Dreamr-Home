@@ -123,7 +123,7 @@ export function HeroSection() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-x-6 gap-y-5 lg:gap-12">
             {[
               { value: "$0", label: "Setup Fees" },
-              { value: "$249", label: "/mo flat retainer" },
+              { value: "$199", label: "/mo flat retainer" },
               { value: "1×", label: "Contractor per territory" },
               { value: "Cancel", label: "Any month. No fine print." },
             ].map((stat, index) => (
