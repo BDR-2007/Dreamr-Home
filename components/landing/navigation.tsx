@@ -139,7 +139,7 @@ export function Navigation() {
               className="flex-1 rounded-full h-14 text-base"
             >
               <a href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
-                Call Us
+                Contact
               </a>
             </Button>
             <Button
